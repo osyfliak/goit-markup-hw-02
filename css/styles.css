@@ -1,12 +1,48 @@
-body{
-    background-color: F5F5F5;
+:root{
     
 }
+
+body{
+    background-color: F5F5F5;
+    color: #212121;
+}
+
 ul{
     list-style: none;
 }
 
-p{
-    color: red;
-    font-size: 20px;
+/* Стилізація header */
+.logo a:focus{
+
+}
+.logo1{
+    color: #2196F3
+    ;
+}
+.logo2{
+    color: #000000;
+}
+
+.menu-list a{
+    color: #212121;
+}
+.menu-list a:hover,
+.menu-lis a:focus{
+    color: #2196F3;
+}
+.contact-list a{
+    color: #757575;
+}
+
+.contact-list a:hover,
+.contact-list a:focus{
+    color: #2196F3
+}
+
+.section, .section-title{
+    color: #212121;
+}
+
+.title-text{
+    color: #757575;
 }
