@@ -90,14 +90,14 @@ body{
     font-size: 36px;
     line-height: 1,16;
     text-align: center;
-    text-align: center;
+    
 }
 
 .features .title{
     font-weight: 700;
     font-size: 14px;
     line-height: 1,14;
-    text-align: center;
+   
 }
 
 .features .title-text{
@@ -115,14 +115,14 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 1,2;
-    text-align: center;
+  
 }
 .team .title-text{
     color: var(--title-text-color);
 
     font-size:16px;
     line-height: 1.2;
-    text-align: center;
+    
 }
 /* Підвал */
 .footer{
