@@ -142,7 +142,7 @@ body{
 }
 .addres-link:hover,
 .addres-link:focus{
-    color: var(--accent-color)
+    color: var(--accent-color);
     font-style: normal;
 }
 .contact-footer .link{
