@@ -1,48 +1,122 @@
-:root{
-    
-}
+:root{ 
+    --menu-list-color: #212121;
+    --contact-list-color: #757575;
+    --title-color:#212121;
+    --title-text-color: #757575;
+    --basic-color: #2196F3;
+    --background-footer-color: #2F303A ;
+} 
 
 body{
     background-color: F5F5F5;
     color: #212121;
 }
 
-ul{
+.list{
     list-style: none;
 }
 
 /* Стилізація header */
-.logo a:focus{
 
-}
-.logo1{
-    color: #2196F3
+.logo{
+    color: var(--basic-color);
     ;
 }
-.logo2{
+.logo-part{
     color: #000000;
 }
 
-.menu-list a{
-    color: #212121;
+.menu .link{
+    color: var(--menu-list-color);
 }
-.menu-list a:hover,
-.menu-lis a:focus{
-    color: #2196F3;
+.menu .link:hover,
+.menu .link:focus{
+    color: var(--basic-color);
 }
-.contact-list a{
-    color: #757575;
+.menu .link.current{
+    color: var(--basic-color);
 }
-
-.contact-list a:hover,
-.contact-list a:focus{
-    color: #2196F3
+.contact .link{
+    color: var(--contact-list-color);
 }
 
+.contact .link:hover,
+.contact .link:focus{
+    color: var(--basic-color);
+}
+/* Шапка */
+.hero{
+    background-color: var(--background-footer-color);
+    width: 1600px;
+    height: 600px;
+}
+.hero-title{
+    color: #FFFFFF;
+}
+.button-order{
+    color: #FFFFFF;
+    background-color: #2196F3;
+    width: 216px;
+    height: 50px;
+}
+/* Особливості */
 .section, .section-title{
-    color: #212121;
+    color: var(--title-color);
 }
 
-.title-text{
-    color: #757575;
+.features .title{
+    color: var(--title-color);
+}
+
+.features .title-text{
+    color: var(--title-text-color);
+}
+
+/* Чим займаємося */
+
+
+/* Наша команда */
+.team .title{
+color: var(--title-color);
+}
+.team .title-text{
+    color: var(--title-text-color)
+}
+/* Підвал */
+.footer{
+    background-color: var(--background-footer-color);
+}
+.footer .logo-part{
+    color: #ffffff;
+}
+.addres-link{
+    color: #ffffff;
+}
+
+.contact-footer .link{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+/* portfolio.html */
+
+/* Портфоліо */
+.portfolio title{
+    color: var(--title-color);
+}
+/* Фільтр */
+.button{
+    color: #212121;
+    background-color: #FFFFFF;
+}
+.button:hover,
+.button:focus{
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.portfolio .title-text{
+    color: var(--title-text-color);
 }
