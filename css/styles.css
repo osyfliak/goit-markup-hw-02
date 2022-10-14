@@ -1,7 +1,5 @@
 :root{ 
-    --menu-list-color: #212121;
-    --contact-list-color: #757575;
-    --title-color:#212121;
+    --basic-color: #212121;
     --title-text-color: #757575;
     --accent-color: #2196F3;
     --background-footer-color: #2F303A ;
@@ -9,7 +7,7 @@
 
 body{
     background-color: F5F5F5;
-    color: #212121;
+    color: var(--basic-color);
 
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
@@ -48,7 +46,7 @@ body{
     color: var(--accent-color);
 }
 .contact .link{
-    color: var(--contact-list-color);
+    color: var(--title-text-color);
     text-decoration: none;
  
     font-weight: 500;
@@ -65,8 +63,7 @@ body{
 /* Шапка */
 .hero{
     background-color: var(--background-footer-color);
-    width: 1600px;
-    height: 600px;
+
 }
 .hero-title{
     color: #FFFFFF;
@@ -89,8 +86,6 @@ body{
 }
 /* Особливості */
 .section .section-title{
-    color: var(--title-color);
-
     font-weight: 700;
     font-size: 36px;
     line-height: 1,16;
@@ -99,8 +94,6 @@ body{
 }
 
 .features .title{
-    color: var(--title-color);
-
     font-weight: 700;
     font-size: 14px;
     line-height: 1,14;
@@ -119,8 +112,6 @@ body{
 
 /* Наша команда */
 .team .title{
-    color: var(--title-color);
-
     font-weight: 500;
     font-size: 16px;
     line-height: 1,2;
@@ -151,7 +142,7 @@ body{
 }
 .addres-link:hover,
 .addres-link:focus{
-    color: var(--basic-color);
+    color: var(--accent-color)
     font-style: normal;
 }
 .contact-footer .link{
@@ -164,7 +155,7 @@ body{
 }
 .contact-footer .link.link:hover,
 .contact-footer .link.link:focus{
-    color: var(--basic-color);
+    color: var(--accent-color);
     font-style: normal;
 }
 
@@ -191,8 +182,6 @@ body{
 }
 /* Портфоліо */
 .portfolio title{
-    color: var(--title-color);
-
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
