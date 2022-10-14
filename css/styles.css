@@ -3,13 +3,16 @@
     --contact-list-color: #757575;
     --title-color:#212121;
     --title-text-color: #757575;
-    --basic-color: #2196F3;
+    --accent-color: #2196F3;
     --background-footer-color: #2F303A ;
 } 
 
 body{
     background-color: F5F5F5;
     color: #212121;
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .list{
@@ -19,30 +22,45 @@ body{
 /* Стилізація header */
 
 .logo{
-    color: var(--basic-color);
-    ;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: Raleway, sans-serif; 
+    line-height: 1.2;
 }
 .logo-part{
     color: #000000;
+    text-decoration: none;
 }
 
 .menu .link{
     color: var(--menu-list-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
 }
 .menu .link:hover,
 .menu .link:focus{
-    color: var(--basic-color);
+    color: var(--accent-color);
 }
 .menu .link.current{
-    color: var(--basic-color);
+    color: var(--accent-color);
 }
 .contact .link{
     color: var(--contact-list-color);
+    text-decoration: none;
+ 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
 }
 
 .contact .link:hover,
 .contact .link:focus{
-    color: var(--basic-color);
+    color: var(--accent-color);
+    text-decoration: none;
 }
 /* Шапка */
 .hero{
@@ -52,24 +70,48 @@ body{
 }
 .hero-title{
     color: #FFFFFF;
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .button-order{
     color: #FFFFFF;
     background-color: #2196F3;
-    width: 216px;
-    height: 50px;
+    cursor: pointer;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;  
+    letter-spacing: 0.06em;  
 }
 /* Особливості */
-.section, .section-title{
+.section .section-title{
     color: var(--title-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,16;
+    text-align: center;
+    text-align: center;
 }
 
 .features .title{
     color: var(--title-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    text-align: center;
 }
 
 .features .title-text{
     color: var(--title-text-color);
+
+    font-size: 14px;
+    line-height: 1,7;
 }
 
 /* Чим займаємося */
@@ -77,10 +119,19 @@ body{
 
 /* Наша команда */
 .team .title{
-color: var(--title-color);
+    color: var(--title-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,2;
+    text-align: center;
 }
 .team .title-text{
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+
+    font-size:16px;
+    line-height: 1.2;
+    text-align: center;
 }
 /* Підвал */
 .footer{
@@ -88,35 +139,68 @@ color: var(--title-color);
 }
 .footer .logo-part{
     color: #ffffff;
+    text-decoration: none;
 }
 .addres-link{
     color: #ffffff;
+    
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.7;
 }
-
+.addres-link:hover,
+.addres-link:focus{
+    color: var(--basic-color);
+    font-style: normal;
+}
 .contact-footer .link{
     color: rgba(255, 255, 255, 0.6);
+
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.contact-footer .link.link:hover,
+.contact-footer .link.link:focus{
+    color: var(--basic-color);
+    font-style: normal;
 }
 
 
 
 
 /* portfolio.html */
-
-/* Портфоліо */
-.portfolio title{
-    color: var(--title-color);
-}
 /* Фільтр */
-.button{
+.button {
     color: #212121;
-    background-color: #FFFFFF;
+    background-color: #F5F4FA;
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em
 }
+
 .button:hover,
-.button:focus{
+.button:focus {
     color: #FFFFFF;
     background-color: #2196F3;
 }
+/* Портфоліо */
+.portfolio title{
+    color: var(--title-color);
 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+}
 .portfolio .title-text{
     color: var(--title-text-color);
+
+    font-size: 16px;
+    line-height: 1.8;
 }
