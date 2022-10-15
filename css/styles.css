@@ -21,9 +21,13 @@ body{
 
 .logo{
     color: var(--accent-color);
+    width: 145px;
+    height: 31px;
+
     text-decoration: none;
     font-family: Raleway, sans-serif; 
     line-height: 1.2;
+
 }
 .logo-part{
     color: #000000;
@@ -35,7 +39,7 @@ body{
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .menu .link:hover,
@@ -51,7 +55,7 @@ body{
  
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -70,9 +74,10 @@ body{
     
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .button-order{
     color: #FFFFFF;
@@ -88,7 +93,7 @@ body{
 .section .section-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
     text-align: center;
     
 }
@@ -96,7 +101,8 @@ body{
 .features .title{
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
+    text-transform: uppercase;
    
 }
 
@@ -104,7 +110,7 @@ body{
     color: var(--title-text-color);
 
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
 }
 
 /* Чим займаємося */
@@ -114,7 +120,7 @@ body{
 .team .title{
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,2;
+    line-height: 1.2;
   
 }
 .team .title-text{
@@ -181,7 +187,7 @@ body{
     background-color: #2196F3;
 }
 /* Портфоліо */
-.portfolio title{
+.portfolio .title{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
